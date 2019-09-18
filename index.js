@@ -114,6 +114,9 @@ function moveDodger(e) {
   // implement me!
   /**
    * This function should call `moveDodgerLeft()`
+   if (e.which == 37) {
+   moveDodgerLeft()
+ }
    * if the left arrow is pressed and `moveDodgerRight()`
    * if the right arrow is pressed. (Check the constants
    * we've declared for you above.)
